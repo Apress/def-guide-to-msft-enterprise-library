@@ -1,0 +1,64 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACME.POS.Service.ServiceImplementation</RootNamespace>
+    <AssemblyName>ACME.POS.Service.ServiceImplementation</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GetStates.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business Logic\ACME.POS.Service.BusinessEntities\ACME.POS.Service.BusinessEntities.csproj">
+      <Project>{95171E61-BA49-4DBB-B996-C374B8F683B9}</Project>
+      <Name>ACME.POS.Service.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business Logic\ACME.POS.Service.BusinessLogic\ACME.POS.Service.BusinessLogic.csproj">
+      <Project>{9CF674D0-4C09-47E0-9024-3102B4E2924A}</Project>
+      <Name>ACME.POS.Service.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ACME.POS.Service.DataTypes\ACME.POS.Service.DataTypes.csproj">
+      <Project>{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}</Project>
+      <Name>ACME.POS.Service.DataTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ACME.POS.Service.ServiceContracts\ACME.POS.Service.ServiceContracts.csproj">
+      <Project>{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}</Project>
+      <Name>ACME.POS.Service.ServiceContracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties IsServiceImplementationProject="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

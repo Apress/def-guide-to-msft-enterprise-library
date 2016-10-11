@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Block", "Application Block", "{972B90EC-9BFE-4AC6-9D00-9F127A1A3067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{B8A29BA8-6031-400B-BFD4-46A15D1FFFC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGTEL.SampleAB.Configuration.Design", "Application Block\Design\DGTEL.SampleAB.Configuration.Design\DGTEL.SampleAB.Configuration.Design.csproj", "{3B980FAB-275C-4FC8-A089-09E40A37B486}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{375692CD-CBE3-4522-AC23-5EA1D3307843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGTEL.SampleAB.Tests", "Application Block\Unit Tests\DGTEL.SampleAB.Tests\DGTEL.SampleAB.Tests.csproj", "{538220BD-CCF1-4DC4-96F5-D54CF1E643C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGTEL.SampleAB.Configuration.Design.Tests", "Application Block\Unit Tests\DGTEL.SampleAB.Configuration.Design.Tests\DGTEL.SampleAB.Configuration.Design.Tests.csproj", "{46801C89-5165-48EC-804E-A51E3EFD5BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGTEL.SampleAB", "Application Block\DGTEL.SampleAB\DGTEL.SampleAB.csproj", "{3553E01D-1564-459A-B357-3396D9F3695D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleABTestHarness", "SampleABTestHarness\SampleABTestHarness.csproj", "{45705389-C9C9-4770-B06B-793DDFA85AB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B980FAB-275C-4FC8-A089-09E40A37B486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B980FAB-275C-4FC8-A089-09E40A37B486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B980FAB-275C-4FC8-A089-09E40A37B486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B980FAB-275C-4FC8-A089-09E40A37B486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538220BD-CCF1-4DC4-96F5-D54CF1E643C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538220BD-CCF1-4DC4-96F5-D54CF1E643C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538220BD-CCF1-4DC4-96F5-D54CF1E643C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538220BD-CCF1-4DC4-96F5-D54CF1E643C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46801C89-5165-48EC-804E-A51E3EFD5BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46801C89-5165-48EC-804E-A51E3EFD5BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46801C89-5165-48EC-804E-A51E3EFD5BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46801C89-5165-48EC-804E-A51E3EFD5BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3553E01D-1564-459A-B357-3396D9F3695D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3553E01D-1564-459A-B357-3396D9F3695D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3553E01D-1564-459A-B357-3396D9F3695D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3553E01D-1564-459A-B357-3396D9F3695D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45705389-C9C9-4770-B06B-793DDFA85AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45705389-C9C9-4770-B06B-793DDFA85AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45705389-C9C9-4770-B06B-793DDFA85AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45705389-C9C9-4770-B06B-793DDFA85AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8A29BA8-6031-400B-BFD4-46A15D1FFFC2} = {972B90EC-9BFE-4AC6-9D00-9F127A1A3067}
+		{375692CD-CBE3-4522-AC23-5EA1D3307843} = {972B90EC-9BFE-4AC6-9D00-9F127A1A3067}
+		{3553E01D-1564-459A-B357-3396D9F3695D} = {972B90EC-9BFE-4AC6-9D00-9F127A1A3067}
+		{3B980FAB-275C-4FC8-A089-09E40A37B486} = {B8A29BA8-6031-400B-BFD4-46A15D1FFFC2}
+		{538220BD-CCF1-4DC4-96F5-D54CF1E643C2} = {375692CD-CBE3-4522-AC23-5EA1D3307843}
+		{46801C89-5165-48EC-804E-A51E3EFD5BD5} = {375692CD-CBE3-4522-AC23-5EA1D3307843}
+	EndGlobalSection
+EndGlobal

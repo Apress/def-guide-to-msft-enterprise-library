@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ACMECustomerDAL.dll
+bin\Debug\ACMECustomerDAL.pdb
+bin\Debug\ACME.POS.Service.BusinessEntities.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+bin\Debug\ACME.POS.Service.BusinessEntities.pdb
+obj\Debug\ACMECustomerDAL.dll
+obj\Debug\ACMECustomerDAL.pdb

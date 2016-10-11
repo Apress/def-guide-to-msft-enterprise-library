@@ -1,0 +1,225 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{863595CD-5F22-44CF-B8C4-109B53DB0626}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business Logic", "{2E032A63-7EDE-49B2-B367-EDE94E7E8734}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.POS.Service.BusinessEntities", "Source\Business Logic\ACME.POS.Service.BusinessEntities\ACME.POS.Service.BusinessEntities.csproj", "{95171E61-BA49-4DBB-B996-C374B8F683B9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.POS.Service.BusinessLogic", "Source\Business Logic\ACME.POS.Service.BusinessLogic\ACME.POS.Service.BusinessLogic.csproj", "{9CF674D0-4C09-47E0-9024-3102B4E2924A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource Access", "Resource Access", "{23E081E5-67B2-43E0-A23E-E354ABDCC0E3}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.POS.Service.DataAccess", "Source\Resource Access\ACME.POS.Service.DataAccess\ACME.POS.Service.DataAccess.csproj", "{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Interface", "Service Interface", "{A541A329-7605-4B29-B694-171CA792036C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.POS.Service.DataTypes", "Source\Service Interface\ACME.POS.Service.DataTypes\ACME.POS.Service.DataTypes.csproj", "{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.POS.Service.ServiceImplementation", "Source\Service Interface\ACME.POS.Service.ServiceImplementation\ACME.POS.Service.ServiceImplementation.csproj", "{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.POS.Service.ServiceContracts", "Source\Service Interface\ACME.POS.Service.ServiceContracts\ACME.POS.Service.ServiceContracts.csproj", "{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\ACME.POS.Service.Host\", "Source\Service Interface\ACME.POS.Service.Host\", "{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}|ACME.POS.Service.ServiceImplementation.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ACME.POS.Service.Host"
+		Debug.AspNetCompiler.PhysicalPath = "Source\Service Interface\ACME.POS.Service.Host\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ACME.POS.Service.Host\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ACME.POS.Service.Host"
+		Release.AspNetCompiler.PhysicalPath = "Source\Service Interface\ACME.POS.Service.Host\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ACME.POS.Service.Host\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51489"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D122E531-E750-40B5-BADA-26F534908F7F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.POS.Service.Client", "Tests\ACME.POS.Service.Client\ACME.POS.Service.Client.csproj", "{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functional Tests", "Functional Tests", "{B94DDBFC-9F67-4CA0-BCC5-04BFA7CA33C2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{39A7E0E3-54FC-4EFD-B854-ECBF3424789B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Release|.NET.ActiveCfg = Release|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{95171E61-BA49-4DBB-B996-C374B8F683B9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Release|.NET.ActiveCfg = Release|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Release|.NET.ActiveCfg = Release|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Release|.NET.ActiveCfg = Release|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Release|.NET.ActiveCfg = Release|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Debug|.NET.Build.0 = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Release|.NET.ActiveCfg = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Release|.NET.Build.0 = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Release|.NET.ActiveCfg = Release|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E032A63-7EDE-49B2-B367-EDE94E7E8734} = {863595CD-5F22-44CF-B8C4-109B53DB0626}
+		{23E081E5-67B2-43E0-A23E-E354ABDCC0E3} = {863595CD-5F22-44CF-B8C4-109B53DB0626}
+		{A541A329-7605-4B29-B694-171CA792036C} = {863595CD-5F22-44CF-B8C4-109B53DB0626}
+		{95171E61-BA49-4DBB-B996-C374B8F683B9} = {2E032A63-7EDE-49B2-B367-EDE94E7E8734}
+		{9CF674D0-4C09-47E0-9024-3102B4E2924A} = {2E032A63-7EDE-49B2-B367-EDE94E7E8734}
+		{DF5CCF8E-EF8C-41B2-8EFD-465EAA9A23CA} = {23E081E5-67B2-43E0-A23E-E354ABDCC0E3}
+		{A1060AB6-3E9D-42A2-8EEC-9E065FBDC3B0} = {A541A329-7605-4B29-B694-171CA792036C}
+		{1DAA5EC4-8E6C-4702-AF1B-495C678E9D48} = {A541A329-7605-4B29-B694-171CA792036C}
+		{2AD71FDC-29A7-47AF-9BEE-455E740D36AD} = {A541A329-7605-4B29-B694-171CA792036C}
+		{0EF5E2E7-F4D7-4B8C-9290-CD776394BA3E} = {A541A329-7605-4B29-B694-171CA792036C}
+		{BB4CEF98-E472-4F94-8CFB-B7B799D1912E} = {D122E531-E750-40B5-BADA-26F534908F7F}
+		{B94DDBFC-9F67-4CA0-BCC5-04BFA7CA33C2} = {D122E531-E750-40B5-BADA-26F534908F7F}
+		{39A7E0E3-54FC-4EFD-B854-ECBF3424789B} = {D122E531-E750-40B5-BADA-26F534908F7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		ServiceContractNamespace = http://ACME.POS.Service.ServiceContracts/2007/06
+		DataContractNamespace = http://ACME.POS.Service.DataTypes/2007/06
+		UnLocked = False
+		Locked = True
+		IsSolution = True
+	EndGlobalSection
+EndGlobal

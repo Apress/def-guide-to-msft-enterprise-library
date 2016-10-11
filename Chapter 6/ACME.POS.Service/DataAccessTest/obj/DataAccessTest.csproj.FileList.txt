@@ -1,0 +1,16 @@
+.\bin\Debug\DataAccessTest.dll
+.\bin\Debug\DataAccessTest.pdb
+.\bin\Debug\ACME.POS.Service.BusinessEntities.dll
+.\bin\Debug\ACME.POS.Service.DataAccess.dll
+.\bin\Debug\ACMECustomerDAL.dll
+.\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+.\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+.\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+.\bin\Debug\ACMECustomerDAL.pdb
+.\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+.\bin\Debug\ACME.POS.Service.DataAccess.pdb
+.\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+.\bin\Debug\ACME.POS.Service.BusinessEntities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataAccessTest.dll
+obj\Debug\DataAccessTest.pdb

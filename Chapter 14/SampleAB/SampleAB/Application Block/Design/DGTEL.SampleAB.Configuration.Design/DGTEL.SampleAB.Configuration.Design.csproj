@@ -1,0 +1,98 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B980FAB-275C-4FC8-A089-09E40A37B486}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DGTEL.SampleAB.Configuration.Design</RootNamespace>
+    <AssemblyName>DGTEL.SampleAB.Configuration.Design</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandRegistrar.cs" />
+    <Compile Include="ConfigurationDesignManager.cs" />
+    <Compile Include="NodeMapRegistrar.cs" />
+    <Compile Include="AddApplicationBlockSettingsNodeCommand.cs" />
+    <Compile Include="ApplicationBlockSettingsBuilder.cs" />
+    <Compile Include="ApplicationBlockSettingsNode.cs" />
+    <Compile Include="ApplicationBlockSettingsNodeBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMath.cs" />
+    <Compile Include="ApplicationBlockSettingsBuilder.Math.cs">
+      <DependentUpon>ApplicationBlockSettingsBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationBlockSettingsNodeBuilder.Math.cs">
+      <DependentUpon>ApplicationBlockSettingsNodeBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandRegistrar.AddMath.cs">
+      <DependentUpon>CommandRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandRegistrar.CustomMath.cs">
+      <DependentUpon>CommandRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandRegistrar.Math.cs">
+      <DependentUpon>CommandRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandRegistrar.SubtractMath.cs">
+      <DependentUpon>CommandRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMath.cs" />
+    <Compile Include="Math.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SubtractMath.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DGTEL.SampleAB\DGTEL.SampleAB.csproj">
+      <Project>{3553E01D-1564-459A-B357-3396D9F3695D}</Project>
+      <Name>DGTEL.SampleAB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

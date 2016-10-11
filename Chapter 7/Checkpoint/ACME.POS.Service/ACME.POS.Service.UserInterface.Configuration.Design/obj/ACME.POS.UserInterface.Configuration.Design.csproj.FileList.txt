@@ -1,0 +1,15 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACME.POS.UserInterface.Configuration.Design.csproj.GenerateResource.Cache
+bin\Debug\ACME.POS.UserInterface.Configuration.Design.dll
+bin\Debug\ACME.POS.UserInterface.Configuration.Design.pdb
+bin\Debug\ACME.POS.UserInterface.Configuration.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+bin\Debug\msmdvbanet.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+bin\Debug\ACME.POS.UserInterface.Configuration.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+obj\Debug\ACME.POS.UserInterface.Configuration.Design.Properties.Resources.resources
+obj\Debug\ACME.POS.UserInterface.Configuration.Design.dll
+obj\Debug\ACME.POS.UserInterface.Configuration.Design.pdb

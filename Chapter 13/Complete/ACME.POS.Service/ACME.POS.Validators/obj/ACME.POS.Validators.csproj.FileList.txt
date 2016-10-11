@@ -1,0 +1,11 @@
+bin\Debug\ACME.POS.Validators.dll
+bin\Debug\ACME.POS.Validators.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+bin\Debug\msmdvbanet.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACME.POS.Validators.dll
+obj\Debug\ACME.POS.Validators.pdb

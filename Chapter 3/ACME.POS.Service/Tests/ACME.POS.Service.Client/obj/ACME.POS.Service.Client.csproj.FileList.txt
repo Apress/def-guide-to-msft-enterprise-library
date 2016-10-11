@@ -1,0 +1,14 @@
+bin\Debug\ACME.POS.Service.Client.exe.config
+bin\Debug\ACME.POS.Service.Client.exe
+bin\Debug\ACME.POS.Service.Client.pdb
+bin\Debug\ACME.POS.Service.BusinessEntities.dll
+bin\Debug\ACME.POS.Service.BusinessEntities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACME.POS.Service.Client.Properties.Resources.resources
+obj\Debug\ACME.POS.Service.Client.MainForm.resources
+obj\Debug\ACME.POS.Service.Client.ResultsGrid.resources
+obj\Debug\ACME.POS.Service.Client.csproj.GenerateResource.Cache
+obj\Debug\ACME.POS.Service.Client.exe
+obj\Debug\ACME.POS.Service.Client.pdb
+bin\Debug\ACME.POS.Service.DataAccess.dll
+bin\Debug\ACME.POS.Service.DataAccess.pdb

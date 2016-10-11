@@ -1,0 +1,13 @@
+bin\Debug\DGTEL.SampleAB.Configuration.Design.Tests.dll.config
+bin\Debug\DGTEL.SampleAB.Configuration.Design.Tests.dll
+bin\Debug\DGTEL.SampleAB.Configuration.Design.Tests.pdb
+bin\Debug\DGTEL.SampleAB.Configuration.Design.dll
+bin\Debug\DGTEL.SampleAB.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\DGTEL.SampleAB.Configuration.Design.pdb
+bin\Debug\DGTEL.SampleAB.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DGTEL.SampleAB.Configuration.Design.Tests.dll
+obj\Debug\DGTEL.SampleAB.Configuration.Design.Tests.pdb

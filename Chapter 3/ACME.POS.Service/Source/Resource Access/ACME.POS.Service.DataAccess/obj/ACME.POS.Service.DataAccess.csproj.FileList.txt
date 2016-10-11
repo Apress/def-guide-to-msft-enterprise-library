@@ -1,0 +1,7 @@
+bin\Debug\ACME.POS.Service.DataAccess.dll
+bin\Debug\ACME.POS.Service.DataAccess.pdb
+bin\Debug\ACME.POS.Service.BusinessEntities.dll
+bin\Debug\ACME.POS.Service.BusinessEntities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACME.POS.Service.DataAccess.dll
+obj\Debug\ACME.POS.Service.DataAccess.pdb

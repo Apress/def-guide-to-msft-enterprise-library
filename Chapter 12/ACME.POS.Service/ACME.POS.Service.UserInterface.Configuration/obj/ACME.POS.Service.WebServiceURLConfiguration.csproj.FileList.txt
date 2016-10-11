@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ACME.POS.Service.WebServiceURLConfiguration.dll
+bin\Debug\ACME.POS.Service.WebServiceURLConfiguration.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+obj\Debug\ACME.POS.Service.WebServiceURLConfiguration.dll
+obj\Debug\ACME.POS.Service.WebServiceURLConfiguration.pdb

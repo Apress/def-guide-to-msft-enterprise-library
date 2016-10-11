@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ACME.POS.Service.Client.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ACME_POS_Service_Client_ACMEStateWebService_GetStates" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51489/ACME.POS.Service.Host/GetStates.asmx</Value>
+    </Setting>
+    <Setting Name="ACME_POS_Service_Client_ACMECustomerWebService_Customer" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:51489/ACME.POS.Service.Host/Customer.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

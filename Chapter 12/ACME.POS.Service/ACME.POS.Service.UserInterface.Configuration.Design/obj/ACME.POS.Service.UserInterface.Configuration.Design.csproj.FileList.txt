@@ -1,0 +1,3 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACME.POS.Service.UserInterface.Configuration.Design.Properties.Resource.resources
+obj\Debug\ACME.POS.Service.UserInterface.Configuration.Design.csproj.GenerateResource.Cache

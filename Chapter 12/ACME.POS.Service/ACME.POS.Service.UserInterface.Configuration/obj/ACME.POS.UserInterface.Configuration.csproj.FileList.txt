@@ -1,0 +1,8 @@
+bin\Debug\ACME.POS.UserInterface.Configuration.dll
+bin\Debug\ACME.POS.UserInterface.Configuration.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACME.POS.UserInterface.Configuration.dll
+obj\Debug\ACME.POS.UserInterface.Configuration.pdb

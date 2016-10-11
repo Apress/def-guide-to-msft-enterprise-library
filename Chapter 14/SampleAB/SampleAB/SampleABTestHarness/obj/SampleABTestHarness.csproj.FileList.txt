@@ -1,0 +1,14 @@
+bin\Debug\SampleABTestHarness.exe.config
+bin\Debug\SampleABTestHarness.exe
+bin\Debug\SampleABTestHarness.pdb
+bin\Debug\DGTEL.SampleAB.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\DGTEL.SampleAB.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SampleABTestHarness.SampleABForm.resources
+obj\Debug\SampleABTestHarness.Properties.Resources.resources
+obj\Debug\SampleABTestHarness.csproj.GenerateResource.Cache
+obj\Debug\SampleABTestHarness.exe
+obj\Debug\SampleABTestHarness.pdb

@@ -1,0 +1,5 @@
+bin\Debug\ACME.POS.Service.DataTypes.dll
+bin\Debug\ACME.POS.Service.DataTypes.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ACME.POS.Service.DataTypes.dll
+obj\Debug\ACME.POS.Service.DataTypes.pdb
